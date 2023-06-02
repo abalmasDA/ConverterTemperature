@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ConverterTemperature {
+public abstract class ConverterTemperature {
+
+    public abstract double convert(double temperatureCelsiusValue);
+
 }
